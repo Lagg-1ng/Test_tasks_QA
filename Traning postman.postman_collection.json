@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "e1cb894b-4f92-440b-8fad-2cef8ed04a3d",
+		"name": "Traning postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33592117"
+	},
+	"item": [
+		{
+			"name": "https://postman-echo.com/get?qwe=123",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "//сырой формат передачи данных\r\n",
+					"options": {
+						"raw": {
+							"language": "html"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://postman-echo.com/get?qwe=123",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "qwe",
+							"value": "123"
+						},
+						{
+							"key": "qwe",
+							"value": "qwe",
+							"disabled": true
+						},
+						{
+							"key": "qweqwe",
+							"value": "qweqwe",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "123",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "qwe",
+							"disabled": true
+						},
+						{
+							"key": "qweqwe",
+							"value": "qweqwe",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "123",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "qwe",
+							"disabled": true
+						},
+						{
+							"key": "qweqwe",
+							"value": "qweqwe",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "123",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "qwe",
+							"disabled": true
+						},
+						{
+							"key": "qweqwe",
+							"value": "qweqwe",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "123",
+							"disabled": true
+						},
+						{
+							"key": "qwe",
+							"value": "qwe",
+							"disabled": true
+						},
+						{
+							"key": "qweqwe",
+							"value": "qweqwe",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
